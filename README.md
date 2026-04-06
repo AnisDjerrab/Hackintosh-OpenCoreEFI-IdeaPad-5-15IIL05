@@ -47,13 +47,13 @@ python3 fetch-macOS-v2.py
 Then, choose the version of macOS you want (from 1 to 9 => if you want stability, go with Ventura but if you want the latest software out there choose Tahoe)
 
 4. When download is complete, copy-paste both BaseSystem.dmg & BaseSystem.chunklist to the newly created com.apple.recovery directory, and reboot your machine.
-5. After that, quickly press you BIOS key (F2, ESC or DEL) and choose your USB key.
+5. After that, quickly press your BIOS key (F2, ESC or DEL) and choose your USB key.
 6. Finally, in the Open Core menu, use the arrows to choose an option called 'NO NAME', 'RECOVERY' or 'INSTALLED' (the correct macOS recovery option) but do not choose Windows or another macOS installation.
 7. Here you go ! you are now in an apple recovery environment. you can now follow the standard procedure to install macOS on your drive.
 
 ## Important Notes
 + if you are using a recent version of macOS Sonoma or macOS Sequoia/Tahoe, you must install the Heliport app to get wifi working.
-+ if you are using Tahoe, you must either reinject the AppleHDA.kext driver (https://github.com/Mirone/MyKextInstaller and follow the steps) or install the VoodooHDA drive.
++ if you are using Tahoe, you must either reinject the AppleHDA.kext driver (https://github.com/Mirone/MyKextInstaller and follow the steps) or install the VoodooHDA driver.
 + I never understood why this happens or how to fix it, but the screen sometimes flickers in grey or dark windows. if anyone has a fix for this, let me know.
 
 ## Credits
