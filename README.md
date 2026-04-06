@@ -1,5 +1,8 @@
 # OpenCore hackintosh EFI for Lenovo IdeaPad 5 15IIL05
 
+![MacOS Tahoe 26.4](assets/desktop_screenshot.png)
+*MacOS Tahoe 26.4*
+
 This EFI supports running macOS Big Sur through Tahoe using the OpenCore bootloader. It is still in development, so expect bugs and various other issues to appear here and there. I only tested it on my 87K laptop, and it may not work properly on variants of this model with older or newer CPUs for example.
 Thus I would greatly appreciate your contributions & bug reports in order to improve and optimize it.
 
